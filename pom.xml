@@ -7,10 +7,11 @@
     <groupId>dev.xethh.libs</groupId>
     <artifactId>toolkits</artifactId>
     <version>1.0.1</version>
-<!--    <modules>-->
-<!--        <module>base</module>-->
-<!--        <module>commons</module>-->
-<!--    </modules>-->
+    <modules>
+        <module>base</module>
+        <module>commons</module>
+        <module>webDto</module>
+    </modules>
     <packaging>pom</packaging>
     <name>toolkits</name>
     <url>https://github.com/O7UNp/toolkits</url>

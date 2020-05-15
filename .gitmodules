@@ -1,0 +1,9 @@
+[submodule "base"]
+	path = base
+	url = ../libs-toolkit-base.git
+[submodule "commons"]
+	path = commons
+	url = ../libs-toolkit-commons.git
+[submodule "webDto"]
+	path = webDto
+	url = ../libs-toolkits-webDto.git
