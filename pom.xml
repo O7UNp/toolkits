@@ -6,12 +6,7 @@
 
     <groupId>dev.xethh.libs</groupId>
     <artifactId>toolkits</artifactId>
-    <version>1.0.1</version>
-    <modules>
-        <module>base</module>
-        <module>commons</module>
-        <module>webDto</module>
-    </modules>
+    <version>1.0.2</version>
     <packaging>pom</packaging>
     <name>toolkits</name>
     <url>https://github.com/O7UNp/toolkits</url>
@@ -58,6 +53,16 @@
     <build>
         <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
             <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-source-plugin</artifactId>
+                    <version>3.2.1</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-javadoc-plugin</artifactId>
+                    <version>3.2.0</version>
+                </plugin>
                 <!-- clean lifecycle, see https://maven.apache.org/ref/current/maven-core/lifecycles.html#clean_Lifecycle -->
                 <plugin>
                     <artifactId>maven-clean-plugin</artifactId>
