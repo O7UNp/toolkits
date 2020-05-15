@@ -7,3 +7,6 @@
 [submodule "webDto"]
 	path = webDto
 	url = ../libs-toolkits-webDto.git
+[submodule "akka-commons"]
+	path = akka-commons
+	url = ../libs-toolkits-tooakka-commons.git
